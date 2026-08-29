@@ -3,6 +3,7 @@ import { Navbar } from "@/components/layout/Navbar";
 import { Hero } from "@/components/sections/Hero";
 import { StatusStrip } from "@/components/sections/StatusStrip";
 import { Pipeline } from "@/components/sections/Pipeline";
+import { ProductVisual } from "@/components/sections/ProductVisual";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
         <Hero />
         <StatusStrip />
         <Pipeline />
+        <ProductVisual />
       </main>
     </div>
   );
