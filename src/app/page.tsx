@@ -4,6 +4,8 @@ import { Hero } from "@/components/sections/Hero";
 import { StatusStrip } from "@/components/sections/StatusStrip";
 import { Pipeline } from "@/components/sections/Pipeline";
 import { ProductVisual } from "@/components/sections/ProductVisual";
+import { WhyAquaTrace } from "@/components/sections/WhyAquaTrace";
+import { FinalCTA } from "@/components/sections/FinalCTA";
 
 export default function Home() {
   return (
@@ -14,6 +16,8 @@ export default function Home() {
         <StatusStrip />
         <Pipeline />
         <ProductVisual />
+        <WhyAquaTrace />
+        <FinalCTA />
       </main>
     </div>
   );
